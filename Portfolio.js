@@ -1,0 +1,96 @@
+//part4 navbar
+$(document).ready(function(){
+    $('.current-page').addClass('text-blue1');
+})
+//part3
+$(document).ready(function(){
+    $('.img1-tab-all').mouseenter(function(){
+        $('.over-img1-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img1-tab-all').mouseleave(function(){
+        $('.over-img1-tab-all').fadeTo('fast',0);
+    }),
+    $('.img2-tab-all').mouseenter(function(){
+        $('.over-img2-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img2-tab-all').mouseleave(function(){
+        $('.over-img2-tab-all').fadeTo('fast',0);
+    }),
+    $('.img3-tab-all').mouseenter(function(){
+        $('.over-img3-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img3-tab-all').mouseleave(function(){
+        $('.over-img3-tab-all').fadeTo('fast',0);
+    }),
+    $('.img4-tab-all').mouseenter(function(){
+        $('.over-img4-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img4-tab-all').mouseleave(function(){
+        $('.over-img4-tab-all').fadeTo('fast',0);
+    }),
+    $('.img5-tab-all').mouseenter(function(){
+        $('.over-img5-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img5-tab-all').mouseleave(function(){
+        $('.over-img5-tab-all').fadeTo('fast',0);
+    }),
+    $('.img6-tab-all').mouseenter(function(){
+        $('.over-img6-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img6-tab-all').mouseleave(function(){
+        $('.over-img6-tab-all').fadeTo('fast',0);
+    }),
+    $('.img7-tab-all').mouseenter(function(){
+        $('.over-img7-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img7-tab-all').mouseleave(function(){
+        $('.over-img7-tab-all').fadeTo('fast',0);
+    }),
+    $('.img8-tab-all').mouseenter(function(){
+        $('.over-img8-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img8-tab-all').mouseleave(function(){
+        $('.over-img8-tab-all').fadeTo('fast',0);
+    }),
+    $('.img9-tab-all').mouseenter(function(){
+        $('.over-img9-tab-all').fadeTo('fast',0.7);
+    }),
+    $('.img9-tab-all').mouseleave(function(){
+        $('.over-img9-tab-all').fadeTo('fast',0);
+    })
+})
+//part4//footer
+$(document).ready(function(){
+    $('.icon1').mouseenter(function(){
+        $('.bg-icon1').removeClass('bg-blue3'),
+        $('.bg-icon1').addClass('bg-blue1');
+    }),
+    $('.icon1').mouseleave(function(){
+        $('.bg-icon1').removeClass('bg-blue1'),
+        $('.bg-icon1').addClass('bg-blue3');
+    }),
+    $('.icon2').mouseenter(function(){
+        $('.bg-icon2').removeClass('bg-blue3'),
+        $('.bg-icon2').addClass('bg-blue1');
+    }),
+    $('.icon2').mouseleave(function(){
+        $('.bg-icon2').removeClass('bg-blue1'),
+        $('.bg-icon2').addClass('bg-blue3');
+    }),
+    $('.icon3').mouseenter(function(){
+        $('.bg-icon3').removeClass('bg-blue3'),
+        $('.bg-icon3').addClass('bg-blue1');
+    }),
+    $('.icon3').mouseleave(function(){
+        $('.bg-icon3').removeClass('bg-blue1'),
+        $('.bg-icon3').addClass('bg-blue3');
+    }),
+    $('.icon4').mouseenter(function(){
+        $('.bg-icon4').removeClass('bg-blue3'),
+        $('.bg-icon4').addClass('bg-blue1');
+    }),
+    $('.icon4').mouseleave(function(){
+        $('.bg-icon4').removeClass('bg-blue1'),
+        $('.bg-icon4').addClass('bg-blue3');
+    })
+})

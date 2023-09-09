@@ -1,0 +1,475 @@
+<html>
+    <head>
+        <!--Bootstrap4-CDN-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!--Jquery-CDN-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!--Bootstrap-icons-CDN-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+        <!--linkJS-->
+        <script src="C:\Users\Hanieh\Desktop\Hasty II Project\js\Portfolio.js"></script>
+        <!--linkCSS-->
+        <link rel="stylesheet" href="C:\Users\Hanieh\Desktop\Hasty II Project\css\main.css">
+        <!--Googlefont-CDN--->
+        <!--first-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap" rel="stylesheet">
+        <!--second-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap" rel="stylesheet">
+        <!--third-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+        <!--fourth-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap" rel="stylesheet">
+        <!--fifth-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap" rel="stylesheet">
+        <!--sixth-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Moirai+One&display=swap" rel="stylesheet">
+        <!--fontawsome-icons-CDN-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <!--part1-navbar-->
+        <nav class="navbar navbar-expand-lg bg-light h7 py-3 font-default2 fixed-top">    
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/logo.png" class="img-fluid w-75"/>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon">
+                    <i class="bi bi-justify h2"></i>
+                  </span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+                  <ul class="navbar-nav">
+                    <li class="nav-item">
+                      <a class="nav-link" href="Home.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link pl-lg-4" href="Aboutus.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link pl-lg-4" href="#" id="navbardrop" data-toggle="dropdown">
+                          Page<i class="bi bi-arrow-down-short h6"></i>
+                        </a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="Team.html">Team</a>
+                          <a class="dropdown-item" href="Pricingplan.html">Pricing plan</a>
+                          <a class="dropdown-item" href="Testimonial.html">Testimonial</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pl-lg-4 current-page" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pl-lg-4" href="Services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pl-lg-4" href="Blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link pl-lg-4" href="Contactus.html">Contact Us</a>
+                    </li>
+                  </ul>
+                </div>
+            </div><!--container-->
+        </nav>
+        <br /><br /><br />
+        <!--part2--><!--breadcrumb-->
+        <div class="bg-img-breadcrumb h-40">
+            <div class="container py-6">
+                <h2 class="title-body text-light text-center">PORTFOLIO</h2>
+                <div class="d-flex justify-content-center mt-3">
+                    <ul class="breadcrumb">
+                        <li class="breadcrumb-item"><a href="Home.html" class="para1"><i class="bi bi-house"></i>&nbsp;HOME</a></li>
+                        <li class="breadcrumb-item para1 text-blue1">PORTFOLIO</li>
+                    </ul>
+                </div>
+            </div><!--container-->
+        </div><!--bg-img-breadcrumb-->
+        <!--part3-->
+        <div class="container py-5">
+            <ul class="nav nav-pills justify-content-center font-default2">
+                <li class="nav-item">
+                    <a class="nav-link active rounded-0" data-toggle="pill" href="#all">All</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-0" data-toggle="pill" href="#design">Design</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-0" data-toggle="pill" href="#development">Development</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-0" data-toggle="pill" href="#technology">Technology</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link rounded-0" data-toggle="pill" href="#design2">UI/UX Design</a>
+                </li>
+            </ul>
+            <div class="tab-content pt-5">
+                <div class="tab-pane active" id="all">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img1-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-thisisengineering-3861458.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img1-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img2-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-thisisengineering-3912477.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img2-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Technology Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img3-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-pixabay-416405.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img3-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--row1-->
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img4-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-dan-cristian-paduret-1476321.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img4-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img5-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-markus-spiske-3970330.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img5-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light"> UI/UX Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img6-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-life-of-pix-7974.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img6-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--row2-->
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img7-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-pixabay-50711.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img7-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img8-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-fauxels-3184291.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img8-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img9-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-dan-cristian-paduret-1476316.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img9-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--row3-->
+                </div>
+                <div class="tab-pane fade" id="design">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img1-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-thisisengineering-3861458.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img1-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img2-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-thisisengineering-3912477.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img2-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Technology Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img3-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-pixabay-416405.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img3-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--row1-->
+                </div>
+                <div class="tab-pane fade" id="development">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img4-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-dan-cristian-paduret-1476321.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img4-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img5-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-markus-spiske-3970330.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img5-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light"> UI/UX Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img6-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-life-of-pix-7974.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img6-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--row2-->
+                </div>
+                <div class="tab-pane fade" id="technology">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img7-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-pixabay-50711.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img7-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img8-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-fauxels-3184291.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img8-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img9-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-dan-cristian-paduret-1476316.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img9-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--row3-->
+                </div>
+                <div class="tab-pane fade" id="design2">
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img7-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-pixabay-50711.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img7-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img8-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-fauxels-3184291.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img8-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img9-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-dan-cristian-paduret-1476316.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img9-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div><!--row3-->
+                    <div class="row no-gutters">
+                        <div class="col-md-4 pb-3">
+                            <a href="#" class="img4-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-dan-cristian-paduret-1476321.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img4-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light">Development Technology</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4 pl-md-3 pb-3">
+                            <a href="#" class="img5-tab-all">
+                                <div class="position-relative">
+                                    <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-markus-spiske-3970330.jpg"
+                                    class="img-fluid w-100 h-100"/>
+                                    <div class="over-img5-tab-all h-100 w-100 position-absolute pl-2">
+                                        <h5 class="font-default3 text-light"> UI/UX Design</h5>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="col-md-4">
+                        </div>
+                    </div><!--row2-->
+                </div>
+            </div><!--tab-content-->
+        </div><!--container-->
+        <!--part4--><!--footer-->
+        <div class="bg-blue2">
+            <div class="container pt-5 pb-1">
+              <div class="row">
+                <div class="col-lg-3 pb-4">
+                  <img src="https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/HASTY-2.png"
+                  class="img-fluid"/>
+                  <p class="para-litle text-silver pt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sed odit, illo dicta facere voluptas error
+                     earum. Esse enim, soluta expedita.</p>
+                  <div class="d-flex flex-row">
+                    <a href="#" class="icon1">
+                      <div class="bg-blue3 p-2 bg-icon1">
+                        <i class="fa fa-facebook text-light"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="icon2 pl-1">
+                      <div class="bg-blue3 p-2 bg-icon2">
+                        <i class="fa fa-twitter text-light"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="icon3 pl-1">
+                      <div class="bg-blue3 p-2 bg-icon3">
+                        <i class="fa fa-instagram text-light"></i>
+                      </div>
+                    </a>
+                    <a href="#" class="icon4 pl-1">
+                      <div class="bg-blue3 p-2 bg-icon4">
+                        <i class="fa fa-linkedin-square text-light"></i>
+                      </div>
+                    </a>
+                  </div><!--d-flex-->
+                </div>
+                <div class="col-lg-3 pb-4">
+                  <p class="title-italic text-light mb-2">GET IN TOUCH</p>
+                  <div class="line1 mb-2"></div>
+                  <p class="title-italic text-light m-0"><i class="bi bi-geo-alt-fill"></i> Location</p>
+                  <p class="para-litle text-silver m-0 ml-3">USA Office: Orchard ST Millburn, New Jersey, United States.</p>
+                  <p class="title-italic text-light m-0 mt-3"><i class="bi bi-envelope"></i> Email</p>
+                  <p class="para-litle text-silver m-0 ml-3">hello123@example.com</p>
+                  <p class="title-italic text-light m-0 mt-3"><i class="bi bi-phone"></i> Mobile</p>
+                  <p class="para-litle text-silver m-0 ml-3">+1-3454-5678-77</p>
+                </div>
+                <div class="col-lg-3 pb-4">
+                  <p class="title-italic text-light mb-2">OUR SERVICES</p>
+                  <div class="line1 mb-2"></div>
+                  <p><a href="#" class="para-litle text-silver">IT Consulting</a></p>
+                  <p><a href="#" class="para-litle text-silver">Software Development</a></p>
+                  <p><a href="#" class="para-litle text-silver">Cloud Computing</a></p>
+                  <p><a href="#" class="para-litle text-silver">Digital agency</a></p>
+                  <p><a href="#" class="para-litle text-silver">Preliminary Computer Designs</a></p>
+                </div>
+                <div class="col-lg-3 pb-4">
+                  <p class="title-italic text-light mb-2">NEWSLETTER</p>
+                  <div class="line1 mb-2"></div>
+                  <p class="para-litle text-silver">Subscribe to our weekly Newsletter and receive updates via email.</p>
+                  <div class="input-group">
+                    <input type="text" class="form-control rounded-0 para1 bg-blue3 border-blue3" placeholder="Enter Your Email">
+                    <div class="input-group-append">
+                      <a href="#" class="input-group-text rounded-0 bg-blue1 border-blue1">
+                        <i class="fa fa-paper-plane text-light"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div><!--row-->
+            </div><!--container-->
+        </div><!--bg-blue2-->
+    </body>
+</html>

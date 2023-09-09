@@ -1,0 +1,363 @@
+/*container*/
+.container {
+    padding-left: 72px;
+    padding-right: 72px;
+}
+/*font-family*/
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Familjen+Grotesk&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Iso&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Londrina+Shadow&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Moirai+One&display=swap');
+.font-default1 {
+    font-family: "Signika Negative", sans-serif;
+}
+.font-default2 {
+    font-family: "Familjen Grotesk", sans-serif;
+}
+.font-default3 {
+    font-family: "Lora", serif;
+}
+.font-default4 {
+    font-family: "Rubik Iso", cursive;
+}
+.font-default5 {
+    font-family: "Londrina Shadow", cursive;
+}
+.font-default6 {
+    font-family: 'Fira Sans Condensed', sans-serif;
+}
+.font-default7 {
+    font-family: 'Moirai One', cursive;
+}
+/*font-size*/
+.h0 {
+    font-size: 4rem;
+}
+.h7 {
+    font-size: 10pt;
+}
+/*a-link*/
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+}
+a:hover {
+    color: rgb(69, 149, 192);
+    text-decoration: none;
+}
+/*text-colors*/
+.text-blue1 {
+    color: rgb(69, 149, 192);
+}
+.text-blue2 {
+    color: #18455d;
+}
+.text-blue3 {
+    color: #0c2a3a;
+}
+.text-silver {
+    color: silver;
+}
+.text-silver2 {
+    color: rgb(119, 118, 118);
+}
+/*bg-colors*/
+.bg-silver1 {
+    background-color: #dddddd2b;
+}
+.bg-blue1 {
+    background-color: rgb(69, 149, 192);
+}
+.bg-silver {
+    background-color: rgba(224, 218, 218, 0.822);
+}
+.bg-silver2 {
+    background-color: #ededed;
+}
+.bg-blue2 {
+    background-color: #00122f;
+}
+.bg-blue3 {
+    background-color: #18455d;
+}
+.overlay {
+    background-color: silver;
+    opacity: 0.8;
+}
+.over-img1-tab-all,
+.over-img2-tab-all,
+.over-img3-tab-all,
+.over-img4-tab-all,
+.over-img5-tab-all,
+.over-img6-tab-all,
+.over-img7-tab-all,
+.over-img8-tab-all,
+.over-img9-tab-all {
+    opacity: 0.7;
+    top: 0%;
+    background-color: #18455dd0;
+    display: none;
+}
+/*carousel*/
+.carousel-caption {
+    position: absolute;
+    z-index: 10;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #fff;
+    text-align: left;
+    right: 0%;
+    left:0%;
+    top: 30%;
+}
+/*width & height*/
+.w-10 {
+    width: 1.5rem;
+}
+.w-30 {
+    width: 30%;
+}
+.h-40 {
+    height: 40%!important;
+}
+/*butten*/
+.btn {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 10pt;
+}
+.btn-blue1 {
+    color: #fff;
+    background-color: #18455d;
+    border-color: #18455d;
+    border-radius: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.btn-blue1:hover {
+    color: #fff;
+    background-color: rgb(69, 149, 192);
+    border-color: rgb(69, 149, 192);
+    border-radius: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.btn-blue2 {
+    color: #fff;
+    background-color: #18455d;
+    border-color: #18455d;
+    border-radius: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.btn-blue2:hover {
+    color: #18455d;
+    background-color: #fff;
+    border-color: #fff;
+    border-radius: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.btn-white1 {
+    color: #18455d;
+    background-color: white;
+    border-color: white;
+    border-radius: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.btn-white1:hover {
+    color: white;
+    background-color: rgb(69, 149, 192);
+    border-color: rgb(69, 149, 192);
+    border-radius: 0%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+/*parent-font*/
+.para1 {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 11pt;
+}
+.para-litle {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-size: 9.5pt;
+}
+.title-carousel {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.title-italic {
+    font-family: "Lora", serif;
+    color: rgb(69, 149, 192);
+    font-size: 10pt;
+    font-weight: bold;
+}
+.title-body {
+    font-family: "Familjen Grotesk", sans-serif;
+    font-weight: bold;
+}
+.numbers {
+    font-family: 'Moirai One', cursive;
+    font-size: 50pt;
+}
+/*bg-image*/
+.bg-part4-home {
+    background-image: url('	https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/h3-bg-section-02.jpg');
+    background-size: cover;
+}
+.bg-box1-part4 {
+    background-image: url('C:/Users/Hanieh/Desktop/Hasty II Project/portrait-woman-customer-service-worker.jpg');
+    background-size: cover;
+}
+.bg-part5-home {
+    background-image: url('C:/Users/Hanieh/Desktop/Hasty II Project/video.jpg');
+    background-size: cover;
+}
+.over-img1-carousel-part6-home,
+.over-img2-carousel-part6-home,
+.over-img3-carousel-part6-home,
+.over-img4-carousel-part6-home,
+.over-img5-carousel-part6-home,
+.over-img6-carousel-part6-home  {
+    opacity: 0.7;
+    top: 0%;
+    background-color: #18455dd0;
+    display: none;
+}
+.bg-img-part8-home {
+    background-image: url('C:/Users/Hanieh/Desktop/Hasty II Project/portrait-woman-customer-service-worker (1).jpg');
+    background-attachment: fixed;
+}
+.bg-img-breadcrumb {
+    background-image: url('C:/Users/Hanieh/Desktop/Hasty II Project/breadcrumb.png');
+    background-size: cover;
+}
+.bg-part4-pricingplan {
+    background-color: rgb(230, 230, 230);
+}
+.bg-part3-testimonial {
+    background-color: rgb(230, 230, 230);
+}
+.bg-img-part4-testimonial {
+    background-image: url('https://preetheme.com/wp-demo/interior/wp-content/uploads/2022/07/vegas4.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-img-part4-services {
+    background-image: url('https://preetheme.com/wp-demo/hasty-it/wp-content/uploads/2022/11/pexels-life-of-pix-7974.jpg');
+    background-size: cover;
+}
+/*paddings*/
+.pt-18 {
+    padding-top: 18rem;
+}
+.py-6 {
+    padding-top: 7rem;
+}
+.p-eq {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.pt-13 {
+    padding-top: 13rem;
+}
+/*X-Y*/
+.bottom-left {
+    position: absolute;
+    bottom: 0px;
+    left: 16px;
+}
+.top-right {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.line1 {
+    border-top: 1px solid rgba(211, 208, 208, 0.521);
+}
+.line2 {
+    border-top: 1px dashed rgba(211, 208, 208, 0.521);
+}
+.line3 {
+    border-top: 6px solid #18455de7;
+}
+/*border*/
+.border-blue3 {
+    border-color: #18455d;
+}
+.border-blue1 {
+    border-color: rgb(69, 149, 192);
+}
+.border-silver {
+    border-color: silver;
+}
+.border-circle-pagination {
+    border:1px solid rgb(69, 149, 192);
+    border-radius: 100px;
+    color: rgb(69, 149, 192);
+}
+.border-circle-pagination:hover {
+    border:1px solid rgb(69, 149, 192);
+    border-radius: 100px;
+    background-color: rgb(69, 149, 192);
+    color: white;
+}
+.border-circle-pagination.active {
+    border:1px solid rgb(69, 149, 192);
+    border-radius: 100px;
+    background-color: rgb(69, 149, 192);
+    color: white;
+}
+.border-boxs-blog {
+    border: 1px solid rgba(0,0,0,.125);
+    border-left: 6px solid #18455de7;
+}
+/*shapes*/
+.semi-circle {
+    width: 20rem;
+    height: 8rem;
+    background-color: #18455d;
+    border-radius:  0 0 10rem 10rem;
+}
+.semi-circle:hover {
+width: 20rem;
+height: 8rem;
+background-color: rgba(69, 149, 192, 0.507);
+border-radius:  0 0 10rem 10rem;
+}
+.semi-circle2 {
+width: 20rem;
+height: 8rem;
+background-color: rgba(69, 149, 192, 0.508);
+border-radius:  0 0 10rem 10rem;
+}
+.semi-circle2:hover {
+width: 20rem;
+height: 8rem;
+background-color: #18455d;
+border-radius:  0 0 10rem 10rem;
+}
+/*hover*/
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: rgb(69, 149, 192);
+}
